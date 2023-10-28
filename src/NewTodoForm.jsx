@@ -2,7 +2,7 @@ import { useState } from "react"
 
 
 export function NewTodoForm({onSubmit}) {
-
+//this is a comment 
     const [newItem, setNewItem] = useState("")
     function handleSubmit(e) {
         e.preventDefault()
