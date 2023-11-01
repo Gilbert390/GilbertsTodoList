@@ -6,7 +6,7 @@ import { TodoList } from "./TodoList"
 
 
 export default function App(){
-  //use state runs function that sets localValue to "ITEMS"
+  //The use state runs function that sets localValue to "ITEMS"
   //but checks if "ITEMS" is empty, if it is an empty array 
   //will be passed/returned. If not, it will return "ITEMS" 
   //which is composed of todos, from local storage
